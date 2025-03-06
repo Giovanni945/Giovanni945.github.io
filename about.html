@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Dr. William Kurban</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="OfficeStyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="banner">Get to know the face behind our practice.</div>
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="dropdown">
+          <button class="DropDownButton"><i class="fa fa-bars"></i></button>
+          <div class="DropDownContent">
+            <a href="index.html">Home</a>
+            <a href="Appointment.html">Appointment</a>
+            <a href="Diabetes.html">Diabetes</a>
+            <a href="Thyroid.html">Thyroid</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="about.html">About Dr.Kurban</a>
+          </div>
+        </div>
+        <div class="logo">
+          <h1>Dr. Kurban</h1>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="page-title">About Dr. William Kurban</h1>
+        
+        <div class="about-container">
+          <img src="NProfile.png" alt="Dr. William Kurban" class="about-image">
+          
+          <div class="about-content">
+            <h2>Background & Education</h2>
+            <p>Dr. William Kurban is a board-certified endocrinologist with extensive experience in treating patients with hormone-related conditions. He graduated from medical school with honors and completed his residency and fellowship at top medical institutions.</p>
+            <p>Over the years, Dr. Kurban has contributed many articles in the fields of diabetes, weight loss, and thyroid nodules. He continuously attends medical conferences to stay up-to-date with the latest advancements in endocrinology.</p>
+          </div>
+        </div>
+        
+        <div class="specialties-section">
+          <h2>Specialties</h2>
+          <div class="specialties-grid">
+            <div class="specialty-item">
+              <i class="fas fa-heartbeat"></i>
+              <p>High Blood Pressure</p>
+            </div>
+            <div class="specialty-item">
+              <i class="fas fa-tint"></i>
+              <p>Diabetes Management</p>
+            </div>
+            <div class="specialty-item">
+              <i class="fas fa-heart"></i>
+              <p>Heart Disease</p>
+            </div>
+            <div class="specialty-item">
+              <i class="fas fa-balance-scale"></i>
+              <p>Hormone Imbalances</p>
+            </div>
+            <div class="specialty-item">
+              <i class="fas fa-weight"></i>
+              <p>Weight Management</p>
+            </div>
+            <div class="specialty-item">
+              <i class="fas fa-fire"></i>
+              <p>Thyroid Disorders</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-approach">
+          <h2>Dr. Kurban's Approach</h2>
+          <p>Dr. Kurban believes in a comprehensive approach to patient care. He takes the time to listen to his patients, understand their concerns, and develop personalized treatment plans that address their specific needs.</p>
+          <p>His practice combines the latest medical research with compassionate care, ensuring that each patient receives the highest quality treatment in a supportive environment.</p>
+          <a href="Appointment.html" class="action-button">Schedule an Appointment</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="fixedButton" href="tel:+15627895447">
+    <div class="roundedFixedButton"><i class="fa fa-phone"></i></div>
+  </a>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Copyright William Kurban, MD, Inc. © <span id="currentYear"></span> All rights reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
